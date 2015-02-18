@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  pre.scroll= diff
+
+
+  a.yes(href="/yes/"+commit+"/"+user_id) YES
+  a.no(href="/no/"+commit+"/"+user_id) NO
+  a.idk(href="/idk/"+commit+"/"+user_id) I DONT KNOW

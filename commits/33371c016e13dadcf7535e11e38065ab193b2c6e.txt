@@ -1,0 +1,92 @@
+diff --git a/examples/embedded/anomaly/src/AddressBar.h b/examples/embedded/anomaly/src/AddressBar.h
+index 90f7191..0e328c6 100644
+--- a/examples/embedded/anomaly/src/AddressBar.h
++++ b/examples/embedded/anomaly/src/AddressBar.h
+@@ -44,8 +44,10 @@
+ 
+ #include <QWidget>
+ 
++QT_BEGIN_NAMESPACE
+ class QLineEdit;
+ class QToolButton;
++QT_END_NAMESPACE
+ 
+ class AddressBar : public QWidget
+ {
+diff --git a/examples/embedded/anomaly/src/BookmarksView.h b/examples/embedded/anomaly/src/BookmarksView.h
+index 2d2646e..1ac8c34 100644
+--- a/examples/embedded/anomaly/src/BookmarksView.h
++++ b/examples/embedded/anomaly/src/BookmarksView.h
+@@ -44,8 +44,10 @@
+ 
+ #include <QWidget>
+ 
++QT_BEGIN_NAMESPACE
+ class QListWidgetItem;
+ class QUrl;
++QT_END_NAMESPACE
+ 
+ class BookmarksView : public QWidget
+ {
+diff --git a/examples/embedded/anomaly/src/BrowserView.h b/examples/embedded/anomaly/src/BrowserView.h
+index d250a1e..484bb53 100644
+--- a/examples/embedded/anomaly/src/BrowserView.h
++++ b/examples/embedded/anomaly/src/BrowserView.h
+@@ -45,7 +45,10 @@
+ #include <QWidget>
+ #include <QVector>
+ 
++QT_BEGIN_NAMESPACE
+ class QUrl;
++QT_END_NAMESPACE
++
+ class QWebView;
+ class TitleBar;
+ class ControlStrip;
+diff --git a/examples/embedded/anomaly/src/BrowserWindow.h b/examples/embedded/anomaly/src/BrowserWindow.h
+index cd923bc..af3786d 100644
+--- a/examples/embedded/anomaly/src/BrowserWindow.h
++++ b/examples/embedded/anomaly/src/BrowserWindow.h
+@@ -43,8 +43,11 @@
+ #define BROWSERWINDOW_H
+ 
+ #include <QWidget>
++
++QT_BEGIN_NAMESPACE
+ class QPropertyAnimation;
+ class QUrl;
++QT_END_NAMESPACE
+ 
+ class BrowserView;
+ class HomeView;
+diff --git a/examples/embedded/anomaly/src/HomeView.h b/examples/embedded/anomaly/src/HomeView.h
+index 42aa998..eed418b 100644
+--- a/examples/embedded/anomaly/src/HomeView.h
++++ b/examples/embedded/anomaly/src/HomeView.h
+@@ -44,7 +44,9 @@
+ 
+ #include <QWidget>
+ 
++QT_BEGIN_NAMESPACE
+ class QUrl;
++QT_END_NAMESPACE
+ 
+ class AddressBar;
+ class BookmarksView;
+diff --git a/examples/embedded/anomaly/src/flickcharm.h b/examples/embedded/anomaly/src/flickcharm.h
+index 2ba6de5..02d7331 100644
+--- a/examples/embedded/anomaly/src/flickcharm.h
++++ b/examples/embedded/anomaly/src/flickcharm.h
+@@ -44,8 +44,11 @@
+ 
+ #include <QObject>
+ 
+-class FlickCharmPrivate;
++QT_BEGIN_NAMESPACE
+ class QWidget;
++QT_END_NAMESPACE
++
++class FlickCharmPrivate;
+ 
+ class FlickCharm: public QObject
+ {

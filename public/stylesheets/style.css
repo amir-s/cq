@@ -6,3 +6,43 @@ body {
 a {
   color: #00B7FF;
 }
+
+pre.scroll {
+	height: 300px;
+	overflow: auto;
+	background: #efefef;
+	padding: 10px;
+}
+
+a.yes, a.no, a.idk {
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	padding-top:20px;
+}
+
+a.yes {
+	width: 200px;
+	height: 35px;
+	font-size: 15px;
+	background: green;
+	color: white;
+}
+
+a.no {
+	width: 200px;
+	height: 35px;
+	font-size: 15px;
+	background: red;
+	color: white;
+}
+
+a.idk {
+	width: 200px;
+	height: 35px;
+	font-size: 15px;
+	background: gray;
+	color: black;
+}

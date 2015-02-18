@@ -1,0 +1,371 @@
+revision,author,date,title,changed file,insertion,deletion
+33371c016e13dadcf7535e11e38065ab193b2c6e,Thiago Macieira,2012-04-03 18:26:27 -0300,Add unit testing for the qdbusxml2cpp tool,3,269,1
+db297113d0d5f4197916a318b730d93ea2f39558,Stephen Kelly,2012-08-01 17:00:51 +0200,Fix some typos in static assert message.,1,1,1
+4ce776aa7dcd485a7e15307d407de93af3ab3b4c,Denis Shienkov,2012-09-07 12:50:26 +0400,For *nix append CREAD only for ReadOnly or ReadWrite mode,1,4,1
+47eb68ab0b8d9ffd357cbad2f74b63ee2cf00dad,Chris Adams,2012-03-14 12:00:40 +1000,Ensure that variant property references keep QObjects alive,11,230,29
+568e714fdf9d3243bfc684a5650332e432e70461,Oswald Buddenhagen,2012-02-24 22:12:18 +0100,remove library version matching from qt.conf,1,2,65
+8a883d972da3b28d87689c4d4d9c9b5e5b1dcba1,Lars Knoll,2012-07-25 12:57:15 +0200,Do not preload any codecs anymore when using ICU,4,81,30
+48baeef0766ba145d26d374561e152b40245f3b8,Bradley T. Hughes,2012-05-30 11:49:40 +0200,Compile with clang's libc++,2,4,2
+d292f4a7d3f589323f8f2869918829351789b3a3,Dmytro Poplavskiy,2012-01-31 14:04:53 +1000,Changed QCameraFocus::focusMode type to QFlags based FocusModes,6,24,24
+d04e06dc3279bd812d5a060c3f045b84ea345f35,Tasuku Suzuki,2012-05-29 10:21:13 +0900,Remove Library dependency on Settings,14,29,31
+2f9608630b9899dda3242f031fa4a4295d0a2e22,Jiang Jiang,2012-01-12 16:28:22 +0100,Fix preedit text visibility when TextInput is empty,1,1,1
+3b5537765e13a981ca6029c322d08afb785e0dbe,Pierre Rossi,2012-12-04 18:05:09 +0100,QWindowsFontDatabase: provide better fallbackFamilies.,1,87,74
+0838ac541d38b33b23955c036bbcfd94ccc19066,Thiago Macieira,2012-07-31 15:19:30 +0200,Make sure that the parsing mode reaches QUrlPrivate::setHost,3,37,12
+159098719b8e8f40d1bd663c61bdc51f883c645f,Jonas M. Gastal,2011-12-22 13:53:38 -0200,Using proper virtual functions instead of Q_INVOKABLE tricks.,6,68,47
+8bd99b5f8b6fad92c84178c1bd8e10f05fefb222,Friedemann Kleint,2012-05-10 14:21:56 +0200,Remove the test generator for the test qscriptvaluegenerated.,11,0,1401
+058fb94afff8a1a9989ab6d18dacc1fe43769fdb,Shane Kearns,2011-12-22 13:35:34 +0000,Fix faulty logic in http connection pipelining,1,6,2
+3f3dd8f1d3219b63582986996cd01e8bb6effc9c,Kai Koehne,2012-03-21 10:15:01 +0100,Show correct origin of Q_ASSERT in Windows dialog,1,3,3
+cea7a87d5fe482afa83a8b610b5b39ce83ab27c9,Stephen Kelly,2012-09-27 11:22:25 +0200,Take a QPersistentIndex out of the container instead of casting it.,1,17,7
+394e45199fa1aa45036dd787c5052ef7bcd98c52,Holger Hans Peter Freyther,2012-02-25 12:12:09 +0100,directfb: Switch to the new style plugins,3,9,2
+c77b53e5749e753f9bb5f5179a200f9dda67220c,Denis Shienkov,2012-03-19 00:03:30 +0400,Partial refactoring a class SerialPort,9,667,633
+2354949a34211635bfa062040ee416796e3407f3,Iikka Eklund,2012-06-12 13:21:47 +0300,Bug fixes into packaging scripts.,3,37,14
+32c517c9906962a15f214cdcab1d57b32cc8a7e8,Girish Ramakrishnan,2012-05-14 11:36:08 -0700,Fix QPA files inclusion headers,8,24,24
+cb33c3b2b64db43b81d81cf56fe1b2b0155a2839,Eskil Abrahamsen Blomfeldt,2012-03-23 14:45:51 +0100,Remove dummy impl. of shared graphics cache in XCB plugin,7,2,1279
+2b69159fd899e87bb8b5ddcb1a9350a1da984fb1,Marc Mutz,2012-08-07 19:46:38 +0200,QFileSystemModel: remove incorrect #ifndef,1,0,2
+485af6275dddbc70ab4648a6c05a69a19116c227,David Faure,2012-12-14 18:28:06 +0100,"Docu: fix non-ascii character where ""i"" was expected",1,1,1
+5a9de4c6768e413a56f0e7b6c67ea11db761cd58,Stephen Kelly,2012-11-26 14:27:37 +0100,Always use QAIM to get the default flags.,9,12,12
+0f49ebb4c21007f62055c3390fe925a7d4d6b34c,Thomas McGuire,2012-07-11 16:41:32 +0200,QNX: Fix flushing the backing store to non-owner windows,4,63,15
+b01aec8e81a5839ee520ed4e6e4fedf1d2ec419a,Martin Jones,2012-02-20 13:59:41 +1000,cacheBuffer makes delegates appear briefly in wrong position,2,3,2
+bf05abddfd542a0568138d533d1f401d32b65e8c,Janne Anttila,2012-06-19 11:19:28 +0300,Fix qstringlist autotest build for WinCE.,1,13,0
+0160f58d4ba5efd3beacaca3ce122554a90f1eb4,Bradley T. Hughes,2012-02-02 14:23:32 +0100,Rename qatomic_windows.h to qatomic_msvc.h,7,387,454
+345cd69c5be71f9769c1dc3c6cfce0a60e4a4e3e,Robin Burchell,2012-01-20 02:38:40 +0200,Remove Qt 5 notes that would result in source incompatibility unnecessarily.,1,0,1
+8a711623a8e913ab547873ebce028c508d39fdbf,Friedemann Kleint,2012-05-18 11:40:41 +0200,QtQuick1: Fix qdeclarativefontloader test.,2,26,18
+b3ce4470ae2ece0c03c66684ca3d9dd13955786b,Jonas M. Gastal,2011-12-22 17:42:49 -0200,Removing QHttp class,29,999,8839
+f18a6c5fb569ab93e86ca4b75301a7495ba17768,Thiago Macieira,2012-03-29 11:14:12 -0300,Update com.trolltech -> org.qtproject in the bootstrapped tools,2,45,18
+d67f9dba560c4248b3ae7c5ca374a88873fd228d,Michael Goddard,2012-07-09 16:51:16 +1000,Fix some failing QAudioInput integration tests on OSX.,5,113,54
+18033c075cb8bba2e410018c642986630c9d094d,Tasuku Suzuki,2012-11-23 03:17:47 +0900,Enable network build with QT_NO_NETWORKPROXY,1,2,0
+aee2c3a5024fd9fa0b6da7cf90f01825d6043823,Leena Miettinen,2012-12-11 10:24:23 +0100,Doc: move Qt Designer module page to qttools,3,0,393
+9aa67cf0c48ff8e9e73fc19c4dcd950961b5ad54,Thiago Macieira,2012-08-31 11:53:34 +0200,Fix the name of the arguments of qAtan2 to match std::atan2,2,6,6
+52bc65dc8a38a042a9255e6805c5a3711188c647,Laszlo Agocs,2012-05-09 11:22:07 +0300,Enable float coords in evdevtouch,1,4,4
+7a2400641295603b37221dfae2b5ba289dd2a1c9,Roberto Raggi,2012-03-28 10:25:15 +0200,Add floats to the high level IR type system.,4,10,3
+7968bd306d182d244a73682aebdb9e74edbc6304,Berthold Krevert,2012-08-03 16:56:53 +0200,Fixes a crash in QQuickImageParticle,1,4,2
+abe97ed9363ec5d3099ae388c12fb17d3bed3e3c,Michael Brasser,2012-07-09 11:01:48 +1000,Update usage of childrenRect in Flickable docs.,1,10,3
+2922f85e707ad086025149fdb7cb1e2608b9e7b2,Morten Johan Sorvig,2012-05-22 12:00:29 +0200,Reduce QtWidgets dependencies in the Cocoa plugin.,6,22,1415
+91c44fd31e62bd6aabbd3b4ecbb382558398306a,Honglei Zhang,2012-03-21 13:35:00 +0200,Update QtXmlPatterns module name in documentation,1,1,1
+8c4d02f97affdca88e25de894788124033133d87,Janne Anttila,2012-10-31 16:54:18 +0200,Use qt-project.org in tst_hostinfo - qt.nokia.com changed IP address.,1,7,7
+e8420af07158dc3aa5c6ea7ddae6f8be4976e454,Jason McDonald,2012-02-07 15:09:44 +1000,qmltest: Perform extra checks after each data row is executed.,4,11,1
+4ae829c1dbd0e8a72b82ab4c6cddb0a4ffe009f6,Julien Brianceau,2012-09-11 17:20:30 +0200,qpa: extend drawPixmap capabilities,4,104,42
+8820f836467e8ef96908b138db6a012b99c8f58c,Kurt Korbatits,2012-01-23 10:06:38 +1000,Changed qxmlstream unittest to remove its created file after run.,1,6,0
+9c2ec72b95c13991f3c62b762783373c3d691337,Friedemann Kleint,2012-11-01 14:31:16 +0100,Improve path search in configure.,7,183,143
+3b0aa0d8048ffa0bb75bb7b29c903e4499c796a8,Andrew den Exter,2012-08-06 17:36:20 +1000,Add missing VisualDataGroup documentation.,1,88,8
+be2cb6c919d3af82bf53e9c5a7e94c93268d893a,Friedemann Kleint,2012-11-20 11:31:24 +0100,Fix syncqt-warnings about missing QT_BEGIN_HEADER/NAMESPACE.,1,8,0
+51ca5582c2475ea91fe2d86793f000f7bed41f51,Lev Zelenskiy,2012-02-06 13:11:10 +1000,QMediaPlayer::setPosition: do not check isSeekable and do not bound by duration,2,2,7
+ff192b3c6257db55c17a5d4bc2ec82a238f89e28,Oswald Buddenhagen,2012-08-07 17:14:39 +0200,reshuffle assembly of install commands as well,1,16,24
+952df2ffd6e081748837a91dc32d14aa61449e2b,Janne Anttila,2011-11-24 10:31:10 +0200,Fixed QFile::link behaviour for WinCE devices.,1,1,0
+8034bc9e833a07c8f4b193849055097f0be7f619,Morten Johan Sorvig,2012-02-27 13:03:47 +0100,Don't use deprecated QWheelEvent::delta(),1,3,1
+b8c97e702b56c60fdbd7f72add58a18a9743bf48,Pierre Rossi,2012-12-04 14:27:24 +0100,[Qt] Yet another unreviewed speculative windows build fix.,2,9,1
+e10706d393937ccf2c2a33920d66617bacc0e5d7,Martin Jones,2012-07-04 15:27:31 +1000,Mark QQmlComponent::createObject() and incubateObject() as internal,1,7,0
+536ec793b69c16611e73cff4360c6f49b644f740,Stephen Kelly,2012-07-09 09:56:56 +0200,Make it possible to use new syntax to connect to model signals.,3,190,31
+da90a3a490b452154391676857ac2ffc269d4843,Konstantin Ritt,2012-11-19 19:12:58 +0200,QLocale: replace hard-coded default country-for-language map,4,384,397
+4dac6fc70ad3f208ab7bd28af1417edad2d8061f,Jens Bache-Wiig,2012-10-01 17:41:34 +0200,Remove Cleanlooks as a dependency of QGtkStyle,5,694,96
+3ef51efbe75bfb9f1dfbe7df073e9eb745a72ad8,Thiago Macieira,2012-08-15 18:03:50 +0200,Avoid an expensive call to toLocal8Bit upon thread creation,1,18,10
+7a8883c4342fbb17309cc7dfcc8f6829af33d0cd,Friedemann Kleint,2012-02-16 15:30:37 +0100,Fix naming of plugins for QPA plugins and use new plugin system.,14,37,10
+a08e0fca276341396d92c63dd4a417cb482de82d,Kent Hansen,2012-04-22 15:05:56 +0200,Port QtDBus to QMetaMethod-based connectNotify(),6,51,31
+49a7c2fe6e905bc192008c13f08842e4b8134ff9,Shane Kearns,2012-02-20 16:18:29 +0000,Make https requests fail fast when configured without ssl support,2,8,1
+c8da34cde266da87ab6ede8c53131e8be3b55c74,Toby Tomkins,2012-06-27 12:45:18 +1000,Replace insignificant test with QEXPECT_FAIL.,2,1,2
+73ee7cb72e89ededacf90306f39110f1719e84c9,Frederik Gladhorn,2012-03-06 11:26:55 +0100,Check for parent item before calling functions on it.,1,1,1
+1f5e058f79f95e869d8de300596137463492056c,Pekka Vuorela,2012-03-16 14:08:13 +0200,Testability for password mask delay,5,32,5
+1260f64f174a8b24a618b6fe1e9e67ab69c33118,Frederik Gladhorn,2012-11-20 15:45:41 +0100,Change copyright to Digia 2012 and contact to qt-project.,54,108,108
+5daace87139ed4b36b756bcd51ddb6f8fe22897b,Frederik Gladhorn,2012-01-07 01:47:06 +0100,Improve Accessibility documentation.,1,5,1
+e02a144a3c8e7858d879ac2d0038bc7d00906ae6,Thiago Macieira,2012-03-29 11:11:03 -0300,Finish cleaning up com.trolltech -> org.qtproject in QtDBus,27,129,106
+86cbf1709325427df0c8ed0d61f9e29f07c67e1c,Denis Shienkov,2012-08-06 13:16:29 +0400,Move all dependent variables and methods to SerialPort namespace,5,7,13
+5211f45d58f58e99395a71f0c17e797a854093d6,Giuseppe D'Angelo,2012-06-26 19:04:59 +0100,Fix compilation for XCB-without-Xlib,1,1,1
+0b64c4d566f894542f5f242c91f5eff3c825c05f,Lorn Potter,2012-04-20 12:44:16 +1000,make slam a bit more reliable.,2,2,0
+b9a2a0141f4c8f0608f905a733621ebb436958e4,J-P Nurmi,2012-10-08 14:43:03 +0200,QGtkStyle: cleanup unused gdk_drawable_get_depth() (not avail in GTK3),2,0,7
+58e064a5dff1289bff0d304ae8798b43d67587f7,Alan Alpert,2012-03-22 13:17:11 +1000,Check for null pointer dereference,2,4,4
+d3e3404d570373fcb746c89827990aa2a9a4cb17,Tasuku Suzuki,2012-05-17 05:15:08 +0900,Fix QtWidgets compilation for -qconfig large,3,14,0
+9f4d6e824c1b75642150f448f8a359dbc95fb955,hjk,2012-11-20 15:20:24 +0100,QtMultimedia: examples/camera coding style,6,57,72
+7ac1a943b824d8624d16397fd4f8a5fa17a7dd9b,Yann Bodson,2012-05-16 12:59:32 +1000,Add optional width and height arguments to mapToItem()/mapFromItem(),3,204,26
+64da20405a8928ea1f322e51ad6cb76fdf7cacc4,Gabriel de Dietrich,2012-11-12 14:46:42 +0100,QWidget: Move break statement to the right place,1,1,1
+e75b0e8c72008f800704828cd4f1eae97b523848,Thiago Macieira,2012-04-24 16:27:35 +0200,Replace the x86 XGETBV instruction with its opcode bytes,1,1,1
+805dc9c24d6854201b7235e7d6f6fd6241fbed68,Iikka Eklund,2012-09-24 08:52:28 +0300,Change copyrights from Nokia to Digia,1372,21055,21055
+0f929bfa9aa76d7db54a62c6a571e97224384ec1,Kurt Korbatits,2012-03-12 14:24:02 +1000,Fixed benchmarks to work from install directory,18,104,32
+78a239bc6d344f53cf48e4bceca7d45df69220e6,David Schulz,2012-11-21 15:45:13 +0100,QtBase: examples/widgets/itemviews/addressbook codestyle,11,69,73
+9c0ea2c3e77ee2c101a7d3351455f87cda0d8f21,Matthew Vogt,2012-05-14 14:43:24 +1000,Ensure scale property is initialized,2,2,2
+72ae9e8396bce07c020623c99a7a6780cb38e7ca,Jan-Arve Saether,2012-01-06 14:56:40 +0100,Reuse the OObject* in QAccessibleObject,4,29,31
+80ae1d2078d2fe137f8a88268c66440bf19bc1ba,Marc Mutz,2012-10-21 19:02:51 +0200,QSignalSpy: assorted improvements,2,13,10
+de00d8e2d287344229ef6da0fdb19e9846ab6dd9,Kent Hansen,2012-01-09 14:09:32 +0100,Use QMetaType::QVariant as the type for QVariant,5,29,43
+e7a6dacf805602eb76786244da76dae29624bfb7,Thiago Macieira,2012-02-27 16:01:53 +0100,Unify the atomic implementation for x86 architectures,4,96,394
+55024ee0f9150eef30fcdb4c8b74d7083022f472,Bjoern Breitmeyer,2012-05-04 14:06:42 +0200,removed unneccessary wince ifdef,1,0,2
+3c4cfff7837da56dc0c3ebc4d7ad535739d6deaa,Kent Hansen,2012-06-06 13:12:50 +0200,Use the correct ifdef (QT_WIDGETS_LIB) in qsqlrelationaldelegate.h,1,2,2
+c4395849c8d3acdc85578d851ea2c596aa21b0a7,Martin Smith,2012-01-11 12:24:13 +0100,qdoc3: Fixed bug in the human-readable id attrs,4,47,8
+9a81e371079d6aab20f6c4a43031857f4172688c,Sean Harmer,2012-03-09 17:21:22 +0000,Rename blackberry QPA plugin to QNX,63,7675,7675
+437da962c2b486b1a1722aac003bfa00b93ac204,Arnt Witteveen,2012-03-14 14:53:32 +0100,Fix bug showing folder icons for files,1,10,9
+a86b3d76a505d5a8e3b04047e9f7944836b34304,J-P Nurmi,2012-09-26 16:34:29 +0200,tst_QMessageBox: fix Q_OS_MAC usage,1,5,3
+425b925b7e9dd818f2a58fd7bc77bfe8475e6483,Thiago Macieira,2012-05-02 17:15:08 +0200,Simplify the size of the QVarLengthArray buffer.,1,1,2
+5a2de6d2fae4e1afeef200d88e617154558ecc34,Dmytro Poplavskiy,2012-05-03 17:48:13 +1000,Declare and register metatypes for media encoder settings classes,2,18,0
+be6e270d12a8267194bab669c111be9c1ec9615c,Teemu Katajisto,2012-08-22 12:09:21 +0300,QtPrintSupport: use CUPS defaults for UNIX print dialog,3,178,290
+09b605ddcc33575316211156ff5979aa92e7e1fd,Michael Brasser,2012-06-14 10:18:45 +1000,Enable literal Qt enum assignment to enum properties.,4,50,9
+8bdceb93573971deb7ff4327dfa580956c8d9c03,Dmytro Poplavskiy,2012-06-29 14:21:58 +1000,Gst Capture: image capture fixes,3,25,2
+4f94c73d6bfa0ed8e7fc098835f4ff25186b8934,Frederik Gladhorn,2012-01-05 22:10:20 +0100,Image interface functions should be const.,3,9,9
+5fae23eb26b172d4677db273049119b16db272d3,Oswald Buddenhagen,2012-08-02 15:37:50 +0200,introduce -fully-process configure option,2,31,15
+12c74ff618b9cfdc03ccacc4262a02a7ecf1e846,Alan Alpert,2012-03-02 11:05:10 +1000,Update positioners examples to new guidelines,9,365,305
+214894da165cb2b0476528f7417941a834a57de9,Bradley T. Hughes,2012-02-03 09:22:53 +0100,"Remove #include ""qatomic_macosx.h""",1,0,2
+bf722c1ab387e8892242dcaacd8afd36d592ebb6,Sergio Ahumada,2012-10-29 23:13:05 +0100,test: Remove QSKIP from tst_QByteArray::literals(),1,5,4
+730dfc74d3e679505fe976e6be6470215e921565,Mitch Curtis,2012-05-18 15:42:00 +0200,"Fixed ""No such signal"" error in download example output.",1,3,0
+fc15a1d5e2cb064df7b6e7b9e821e9db20a91b85,Mark Brand,2012-06-05 13:50:03 +0200,QSqlResult: replace virtual hooks with virtual functions,15,63,63
+b7272efb652207057a4ad1274c0740e3032a8815,Frederik Gladhorn,2012-11-09 13:20:23 +0100,Simplify elementType string comparisons,1,4,6
+1c86619037d837e2d9c6386d70b6b893f8456a96,Johannes Zellner,2012-06-11 15:57:17 -0700,raspberry pi: Dont use the video layer for EGLFS,1,1,1
+c7d3f9be585b5aa4d0d53350a0a23f68ddd3c22f,Alex Wilson,2012-02-14 13:25:26 +1000,Produce unimplemented warning for QOpenGLBuffer::map only once,1,10,2
+bc4f74f5863fc0d6cad891632019c37a9e38617d,Thiago Macieira,2012-03-27 12:14:14 -0300,Don't hardcode the order of elements in QHashes,2,15,32
+9848c8b92c70006e55a7fa569d06d62efaf5ccc1,Marc Mutz,2012-03-05 18:27:10 +0100,QDirIterator: don't inherit from QDir,2,3,3
+534bcc96676ac02fc327f9e43d3785c7424b0750,Martin Petersson,2012-06-13 08:59:35 +0200,QNetworkAccessManager: delete the httpThread,2,12,4
+e5d362f333ca74e4f63d8105b50044841e8fc8cd,Jonathan Liu,2012-02-24 23:03:49 +1100,Fix Windows -no-freetype build,2,180,180
+87679b3499e68957998b98bf13b6d98b3aa8b4c3,Bea Lam,2012-08-28 11:21:19 +1000,Docs - add missing images and code,30,185,262
+d057065cbb9cd3644e8a1f8729fcd93efea8bd90,Olivier Goffart,2012-01-13 18:28:07 +0100,Document Q_DECL_CONSTEXPR,1,11,0
+a5e95ce39ebb84a5cd21258ceb1b64c544fc6d47,Friedemann Kleint,2012-10-25 12:45:13 +0200,Add manual test for dialogs.,5,559,1
+3c213ae3647b0aeec05430726dc0cf35fb3b40e5,Lars Knoll,2012-11-30 10:09:34 +0100,Fix compilation,1,2,2
+14bdff32e218663523f3940fe639ae792fdee1b1,Oswald Buddenhagen,2012-07-13 13:09:30 +0200,remove duplicate -L flags in findLibraries(),1,7,3
+450d9ce4ba4a755bef66bc029d2ee2a2ae149814,Stephen Kelly,2012-07-18 17:35:52 +0200,Add a test for all QtBase modules.,3,123,0
+817fb006c7583a852ca07df004994d1a5226d162,Michael Goddard,2012-01-27 14:10:35 +1000,Add a viewfinder resolution control for camera.,3,187,0
+348c5bd19a08b3a341e066234ef4fb08ee81e3c0,Stephen Kelly,2012-12-04 11:46:40 +0100,Fix some typos in QProcess and QSslSocket unit tests.,2,2,3
+ce5c8743e94b2ec6fc767e73ca3ec68b07b181b3,Frederik Gladhorn,2012-01-05 22:42:23 +0100,Constify more accessibility interface functions.,8,81,81
+807579ff64e1182eede092927403ad9672c18755,Oswald Buddenhagen,2012-08-09 16:13:56 +0200,take parsing of qmake mode out of parseCommandLine(),1,24,26
+752a02143b8b29bfde40d1e70482bc051457f251,Teemu Katajisto,2012-02-09 10:17:53 +0200,Various documentation fixes ported from Qt 4.8,11,29,15
+56850d6cd7b9c3480b0efdf77a835429d034ac8b,Laszlo Agocs,2012-04-19 09:51:18 +0300,Remove internal QClipboardEvent,3,0,43
+c7b9a60571ace1a555226c33a2dd5afbe6bfbcf4,Mark Brand,2012-03-19 08:55:02 +0100,QSqlRTM: fix whitespace,1,3,3
+d17b56f42b77da1fa46c5b0fbc10a9b6c2a1e145,Jonas M. Gastal,2011-12-19 13:55:29 -0200,QLocalSocket shouldn't emit disconnected if it isn't connected yet.,1,1,1
+a71e12b1709557e9a7263dbf191ec28689ccd992,Jason McDonald,2012-03-08 15:48:23 +1000,Remove redundant and incorrect comment from QList autotest.,1,0,6
+14ddbd5f3aa4e090aca3c5c70df3d7eb9fd5e40d,Lorn Potter,2012-02-02 15:41:40 +1000,rename this as 'shake' collides and sensorgesturemanager ignores.,1,1,1
+3b64f4d9a4c48f4e9cf19a446c551790f2658278,Alberto Mardegan,2012-07-05 17:56:51 +0400,MouseArea: use current value of drag.axis,4,109,11
+792eb1029d0fa1b747deb2cd5b4b3a1cd5d3b13f,Sergio Ahumada,2012-10-29 23:27:51 +0100,test: Remove QSKIP from tst_QListView::setCurrentIndexAfterAppendRowCrash,1,5,4
+f5e1da12f0e7bdeee4db74acc52dfabeb12a4e31,Mark Brand,2012-02-06 17:02:32 +0100,QSqlTableModel::removeRows(): don't emit extra beforeDelete,3,5,12
+cf728e60a71629096188f5d680047414dbb4956b,Kai Koehne,2012-12-11 10:46:56 +0100,Fix compilation with (all versions of) MinGW,1,1,1
+5764f5e6eaf149116a818658883cf4fae9830f30,David Faure,2012-05-14 17:17:11 +0200,QUrl: using sectionIsPresent in operator== broke for local files.,2,9,1
+8ccab9b029ed2a2444d89a9cfc6c4a1866b8e82d,Andras Mantia,2012-07-01 17:11:00 +0300,Add support for SQLSTATE error codes,2,23,12
+4e4403d69c60ea6429b3ad5e7898a84b1dc92be5,Friedemann Kleint,2012-05-08 13:14:09 +0200,No longer use deprecated methods for plugin loading.,14,204,150
+c9542b0538e0ceadba244b6208099b5513951976,Thiago Macieira,2012-04-23 17:46:55 +0200,Don't use the QRegExp methods that modify the object [Designer],8,14,12
+0c4cf655f0ee7d7147bf18e3e902bbf9496b92eb,Michael Brasser,2012-06-28 11:27:23 +1000,Add basic documentation for QML translation functions.,8,458,4
+a8c137f0e6eabb768f156134b06e022d44993ce2,aavit,2012-05-30 11:13:55 +0200,Avoid non-deterministic ordering of glyph nodes.,1,3,6
+9f5fa80c05d034876a2cf308cf1c825cd2bc772b,Lars Knoll,2012-06-12 11:52:51 +0200,Use static plugins properly,7,7,27
+d3af02f190461c9b98dc2f575aa84945b48ec360,Friedemann Kleint,2012-06-28 10:19:17 +0200,Fix QDockWidgets on XCB.,1,21,16
+3650ce5a85f560114de01d61d8bcde03316e9fdc,Shane Kearns,2012-02-28 11:57:12 +0000,Add debug stream operator for QNetworkProxy,2,51,0
+c6497e5edcfc533574d4066aa9650eb6967693bc,Xizhi Zhu (Steven),2012-01-23 22:02:57 +0100,Remove Symbian specific code.,19,18,106
+1535da8a5923b5829b945cc9fd1dee4cdfbcfe5e,Gunnar Sletta,2012-06-04 16:56:17 +0200,Improve on scenegraph documentation.,16,821,136
+0b97f5553097f296e1de3ac88921dbba140ae0d5,Sean Harmer,2012-05-21 11:49:54 +0100,QNX: Take orientation into account when reporting physical size,1,8,3
+6e7ab54862e299dcc0de40c9541f340273d91de1,Giuseppe D'Angelo,2012-11-01 23:40:59 +0100,Remove qSort usages from QDnsLookup,1,4,2
+7220d7f365d6cfa500db8517493c453603575c8b,Harald Fernengel,2012-03-13 21:02:41 +0100,Fix LSB build,1,3,2
+5f7494513e35c92f802ff9fdca4baa6ad2246003,Kai Koehne,2012-09-17 16:39:20 +0200,qmlplugindump: Update help output,1,1,1
+b1004b6f8380a46c379b819ef4a5c7ba555f6666,Marc Mutz,2012-02-16 14:37:04 +0100,Compilation fix: missing includes for geteuid(),2,9,0
+5b6741c39aaf115406fedcdc15c498785db35a61,Lars Knoll,2012-03-12 12:40:03 +0100,Make QLocalePrivate::updateSystemLocale() reset the locale data on Unix,1,49,21
+020196d16b6c25e16bf80483f08e0007a27eab13,Jens Bache-Wiig,2012-11-02 18:35:15 +0100,Make it possible to use mini and small size on mac without widget,2,20,18
+ce7a3b0237678de1b1082fea3e594bc4d6723a2f,Stephen Kelly,2012-07-23 14:52:04 +0200,Remove use of qWinMsgHandler.,1,0,2
+3a77bbe68b087890fe966035eeb12b917b087c15,Berthold Krevert,2012-06-06 13:52:29 +0200,Fix: Widgets that become top-level widgets may crash the application,2,6,3
+7dffcf8a74de16c977ddff930dd17973d2abdf9d,Jonas M. Gastal,2011-12-27 17:20:04 -0200,Clarifying the flow of signals on QNetworkAccessManager.,2,10,1
+a3e9228ac413d66c2a59821923c1a7421832f79e,Dmytro Poplavskiy,2012-07-02 17:48:24 +1000,Gst capture: report the actual media location to application,1,2,0
+c1056c80fbeadee4b910df00998c837d3c2b44a1,Oswald Buddenhagen,2012-07-12 16:58:09 +0200,remove apparently pointless call to findLibraries(),1,0,1
+4c9b4c951934a3ba277dcbf565215305a27d2e06,Andrew den Exter,2012-05-17 16:50:44 +1000,Remove QSKIP from test.,1,0,1
+09c90346aa5d44e27daac774413b0354258da71f,Sergio Ahumada,2012-09-23 16:07:57 +0200,"Update ""About Qt"" dialog from Nokia to Digia",1,2,2
+38b4e4c96bb6043c93f0eae877cab5231d02c14f,Iikka Eklund,2012-06-08 13:18:03 +0300,Make the create_installer.py to locate ifw tools automaticly,2,18,8
+7b15b87ee72ffb583b317f672115be3d5437601a,Andrew den Exter,2012-02-01 17:09:39 +1000,Fix QDeclarativeApplication test failure.,1,2,7
+4af3a3abdef768ff067fa23e6dece058d7a6b9e1,Andrew den Exter,2012-02-01 17:42:00 +1000,Fix qdeclarativeecmascript test failure.,1,5,3
+aeb4a38ebcf9325423ef0259e70ee8bb11a5a30c,Chris Adams,2012-08-08 16:31:50 +1000,Change error messages to reflect new module terminology,8,113,21
+281673e5d3e25f543590bf63bb2b97517486f4e1,Andreas Holzammer,2012-02-08 14:15:33 +0100,Include winsock2.h for ntohl.,1,1,0
+00a201aa3fcca045eb7e2217b73505e041eaf4c2,Oswald Buddenhagen,2012-07-23 11:03:27 +0200,fix compilation against namespaced qt,6,16,1
+6a1d1165c2392e1ab5f493ce324942faa4d5df43,Jason McDonald,2012-03-27 01:05:41 +1000,Make QGridLayout::getItemPosition() const.,2,5,5
+989670737fbb84b6e5c483fd3faccd8d2ab917fe,Kent Hansen,2012-02-17 22:26:27 +0100,Use QMetaMethod::isValid() to check method validity,1,2,2
+66399c6584a86180c1955e5d34617fa46b07f36e,Michael Brasser,2012-04-02 10:02:28 +1000,Also check notifier endpoints when checking whether a signal is connected.,14,72,29
+84ab326a7b997cd8dbf1bd5ad9bb712a01c7e42e,Caroline Chao,2012-11-08 13:24:20 +0100,Fixes the examples shared macro.,1,1,1
+0678a7db8e8eb6997b0acb106dd4347ef8c76fbe,Oswald Buddenhagen,2012-02-08 10:21:28 +0100,remove bizarre magic from precompiled header,1,1,24
+2a78bf40acece9aba2b9be882e5a1ca06a8e2135,Kent Hansen,2012-08-24 13:31:52 +0200,Make samegame work again,2,5,5
+92659bacda53da782c84dff44d3caa2590dbc7cc,Xizhi Zhu,2012-03-15 10:26:39 +0100,Make sure QGlobalNetworkProxy is created for QNetworkProxy.,1,8,0
+8ca1c93a15b03c8bcba56bfa203e973fcb185c10,John Peterson,2012-09-17 21:59:22 +0200,define QT_OPEN_LARGEFILE,1,1,0
+95cb2a1b5caf7d7158dd1176380c1458ea22b54f,Thiago Macieira,2011-12-18 15:33:52 +0100,Fix access to uninitialised memory that might lead to crashes,1,5,0
+a203debb0bae8b342372f18dd0c5db7a33ff2b44,Jan-Arve Saether,2011-12-22 11:21:47 +0100,Fix regression,1,31,19
+a5b01032b63a5f02bbecfe0a94e0c50a4521b21a,Olivier Goffart,2012-05-11 10:34:03 +0200,Fix warning with GCC,2,2,2
+fbdf76771c50294f0a1c0b450f50affc2100b30a,Stephen Kelly,2012-03-19 12:16:12 +0100,Reserve a virtual method for use with a feature in Qt 5.1.,2,12,0
+f948bb3c6c6d14f5d5f209f9be720998a81df145,Konstantin Ritt,2012-04-23 06:00:16 +0300,qunicodetables generator: improve the output and the generated code,3,142,119
+96fe7dad3858920a63bc8236e0c02b38789751cd,Shane Kearns,2012-04-13 14:13:18 +0100,Set ConnectInBackground also for http implementation,1,3,1
+0ee9b6831a4385d8a7b208220ed82ec6bf538b4e,Marc Mutz,2012-03-06 22:45:17 +0100,QtSql: make some constructors explicit,3,5,5
+c42a969b2fecc117f0c77fded008cc1b4f897bb3,Stephen Kelly,2012-01-09 13:01:23 +0100,Rename internal method check to doCheck,2,6,18
+8a3706a5a1a9d5839327ede3fa625da8f3c34979,Dmytro Poplavskiy,2012-08-16 14:45:46 +1000,Camera integration test fixes,1,11,11
+944d2e2f743772002b146b36361be8fd29177363,Jian Liang,2012-04-14 15:13:20 +0800,Initialize reference count for QWindowsMsaaAccessible,1,1,0
+250e4c9ddfa2262f2f94f1a3b5e3e77409c2ec05,Frederik Gladhorn,2012-10-25 14:03:56 +0200,Change organisation to Qt Project.,1,2,2
+7c2160dd05f80e1bd4d106c20ff18cd77a1477e6,Stephen Kelly,2012-07-19 14:14:31 +0200,Test that the package configs for QtXmlPatterns work.,5,90,0
+69e3e544864e55ebe42df035daf3bf66e25c820f,Kent Hansen,2012-02-06 20:42:33 +0100,Add QMetaMethodBuilder::parameterTypes() function,3,44,1
+43619db05d55ca619dac11fdb7327b2b45507cb9,Lars Knoll,2012-11-20 13:34:06 +0100,Emit destroyed() signal before children get deleted,3,119,1
+06887461548bebcb7aa47f5cb06d421d8fd40944,Robin Burchell,2012-05-02 13:31:48 +0200,Add Android to conditionals around langinfo.h usage.,1,5,3
+3e122f483e238caacf597ea3ac50262f5564bc41,Thiago Macieira,2011-10-20 00:08:22 +0200,Port to the new QUrl API,1,4,2
+4d238a5684d2e678c309d0ae8ed7f76a5f2bd682,Tasuku Suzuki,2012-05-22 07:57:55 +0900,move inputMethodQuery() to public in subclasses of QWidget,3,4,3
+4c7e950aad0ed7b2bc114b3ffd5c73f7a433af52,Thiago Macieira,2011-09-02 20:43:50 +0200,Mark QUrl::{to,6,842,797
+372cc6b506d661608a3070169046f570309cdb00,Andy Shaw,2012-08-03 15:25:48 +0200,Add the filters for extra compilers for vcxproj files,1,8,0
+1b7da9e0adf8a2638061d75e2697177be20ddc72,Ling Hu,2012-06-21 16:18:05 +1000,Fixed some crash with WMF backend,6,51,25
+2e4e283d41766b558f91fe19bc8bbc3bb765154f,Thiago Macieira,2012-05-23 15:57:06 +0200,Use the QT_STRINGIFY macro,1,5,7
+b9bb115972b0a6e6c21f2cccc6abe9b7e720bed5,Thomas McGuire,2012-07-10 09:06:11 +0200,Fix showNormal() and friends for platforms with fullscreen hint,2,4,4
+01bfcfba0287fa7e9e051e2540ebbdb01fee5a9e,Alan Alpert,2012-02-28 11:30:16 +1000,Move some toys back to examples,43,1050,1047
+d21f28956e494baae311dc6d8f9dfbd4448965b5,Samuli Piippo,2012-01-26 12:52:44 +0100,Add concurrent to QT_CONFIG also on Windows,1,2,0
+db347ec2f8949da0bcbc28f2d2c43c213bd89cfe,Pierre Rossi,2012-03-30 22:33:05 +0200,Return early in QRawFont::setPixelSize.,1,1,1
+18b26d1fbf92fd03d220f051b5bede64c946a748,Thiago Macieira,2011-10-18 00:32:52 +0200,Quick optimisations to QString: no const-ref for QLatin1XXX,1,4,4
+32edd16e2bc4ae5a3503f9d8100f689cceea7590,Thiago Macieira,2012-05-23 18:39:36 +0200,Merge QtSharedPointer::Basic into QtSharedPointer::ExternalRefCount,1,27,54
+f235ca4079043e6d5e37a204e52e9e482dc4db2c,Jan-Arve Saether,2012-07-02 15:11:38 +0200,Enable modularization of translation files.,5,108,18
+855bac63682c0f6cb604f1b41956a7b13e5d0518,Joerg Bornemann,2012-07-16 11:11:06 +0200,QWidget::showFullScreen fixed for widgets with valid size hint,1,4,0
+e5f77fe31be0ea2c891eacd3e866bb9db4e0a238,Shane Kearns,2012-05-10 16:37:57 +0100,Add test case for link local TCP connections,1,83,0
+ead0e0029a8f1b41b25ae676b030fce51090269d,Sergio Ahumada,2012-10-22 14:08:01 +0200,test: Fix tst_QDir.equalityOperator(),1,1,1
+b9fd262ee0040cbddb1a87d15335372054881122,Andrew den Exter,2012-02-02 14:52:09 +1000,Fix or ignore test qdeclarativetextinput test failures.,3,31,34
+953d620489f883100da748a922962d0f95314815,J-P Nurmi,2012-09-07 14:58:43 +0200,Remove tst_qquicktextedit::alignments(),11,0,91
+bfad100013c3273c8795a0a6ea13a2c2261e68d1,Andreas Holzammer,2012-04-19 20:18:21 +0200,Compile fix if QT_NO_CLIPBOARD defined,2,12,0
+d1cf1cc364463c196dfc99f04328755a67476569,Kent Hansen,2012-08-10 12:28:11 +0200,Suppress JavaScriptCore 'LEAK' messages at application exit,2,5,0
+a912b14c755137ed5529854027b9ab3f7e06c5e9,Stephen Kelly,2012-08-18 13:05:16 +0200,Add automatic metatype registration for invokable methods.,5,312,11
+dd7befcfd84a9a648fa467dda3fe45988bfc5604,Oswald Buddenhagen,2012-02-03 18:28:54 +0100,scope context saving more minimally,1,6,6
+0909c01b2f5d3a466fe6094a501a2893170e2616,Martin Smith,2012-05-11 13:18:52 +0200,qdoc: Fixed a regression bug caused by fixing error messages,5,19,37
+3d3c5dc44e28f1e9cfef12f6ccb881a3c0060c7a,Marc Mutz,2012-07-25 10:04:58 +0200,QMessageLogger: make member functions const,2,17,17
+3a47c13fa655674aa1d3ff8e82bf67b83d42b285,Johannes Zellner,2012-03-12 17:52:27 +0100,remove obsolete qudevhelper and adopt mouse and touch plugins,14,575,459
+fb6d83cca59930345231161c1d6bfdf79fe25807,Johannes Zellner,2012-05-15 12:43:08 -0700,udev: improve device discovery with udev for add/remove,1,10,5
+e63eceabc43d273641e9239e6dfcc60e2f8aeec7,Friedemann Kleint,2012-11-28 16:51:34 +0100,Fix compiler warnings in ActiveQt (MSVC/MinGW).,8,38,38
+d16b852410542268e815e3fc3e895ab0c9b4f625,Andreas Holzammer,2012-05-14 08:37:25 +0200,Fixed MSVC2011 build,5,10,10
+525ec093b4c74b9e04ee35135975cf61e32c73fd,Kevin Funk,2012-08-14 16:05:52 +0200,WinCE: Fix call of GetAncestor in setParent_sys(),1,9,0
+c09b8094c16d6b2934e76d520aa3e355ad675310,Bea Lam,2012-08-20 15:27:07 +1000,Remove some incorrect animation docs,1,13,17
+01669a3cd270f66de1bf985c4630a708e9872a83,Girish Ramakrishnan,2012-04-23 06:18:19 +0200,api: remove references to inputPanel.,5,0,39
+0b3f46014764d6e35da321bbba2d0232ec99d1b1,Eskil Abrahamsen Blomfeldt,2012-05-24 15:51:27 +0200,Uses new batching API to potentially speed up glyph cache,4,97,11
+7ba9a789c930b420e970e50d3ffba7f408fd8f8c,Friedemann Kleint,2012-01-09 12:51:13 +0100,Fix Qt IPC-test on Windows.,8,273,148
+98ed7bd83e5903379c75e0abb386b27679cba6bb,Denis Shienkov,2012-09-07 18:02:30 +0400,For Win32 API,4,62,62
+770175045a308b823a7f0faa5d5530836532cc00,Laszlo Agocs,2012-07-25 11:52:07 +0300,Update only dirty areas in kms backingstore,2,36,3
+e0cf8cf5f122c9b7ecd5bc532591cdb138c71877,David Faure,2012-05-22 13:56:45 +0200,Fix crash when using QCoreApplication::applicationName in a global static,1,1,1
+c18c209eebc4c2480bc75bfed70a46641bba936b,Kai Koehne,2012-08-28 16:49:37 +0200,Fix compiler warnings from MSVC2010,3,11,2
+f449cefc27fc321f96aadbcb0f0a46e6f7a2b0b4,Frederik Gladhorn,2012-02-12 12:35:12 +0100,Remove AccessibilityPrepare event.,5,0,15
+67d7f55db6a29bd96f3834979e0789a6a444320f,Giuseppe D'Angelo,2012-04-13 19:01:16 +0100,qHash: two arguments support for simple integer types (and QChar),1,16,16
+1f461ac45bfa8887261510a95fb33a346d68eaba,aavit,2012-06-06 15:16:49 +0200,Namespace the bundled zlib symbols,5,59,39
+0f1be99881883b28a80f0e5f276ea3bb544a9611,Andrew den Exter,2012-03-12 12:49:01 +1000,Remove unused functions from QQuickTextControl.,3,0,127
+adb8811e960876fa00eff621364edba8a79936f7,Martin Jones,2012-03-25 12:37:08 +1000,PathView was missing the maximumFlickVelocity property,4,123,24
+3b69fa6bc70efe6f14cb67546812f611b891709c,Friedemann Kleint,2012-03-09 11:38:55 +0100,Implement QSystemTrayIcon for X11.,5,159,275
+0d6f1ef58837fc34216634210d1f831180a7b134,Mitch Curtis,2012-09-12 15:44:22 +0200,Remove documentation for non-existent QLineEdit functions.,1,0,156
+755cd58f9c70eba0c67da8b2b504fd7a07a2c4e2,Xizhi Zhu,2012-01-23 18:45:45 +0100,Remove Symbian specific code in 3rdparty.,4,4,105
+e1cee9222df8e078587a8539e40ce9a8ef914093,Bradley T. Hughes,2012-05-14 09:22:40 +0200,Split Q_COMPILER_DEFAULT_DELETE_MEMBERS,2,25,8
+46fe591a534d85090ff94136598a9272f1e0c20a,Oliver Wolff,2012-11-15 11:34:09 +0100,Windows: Fixed mouse events related to size grips,1,0,9
+55070e863710d49dd4b09903be9a85ea94dff1fe,Shane Kearns,2012-04-27 11:31:58 +0100,Connect bearer engines to manager with QueuedConnection,1,8,4
+0f48d1a52327695d7c9d3d9753fedc366e2fd878,Lars Knoll,2012-01-25 13:58:17 +0100,Remove QIconEngineV2 and fold it into QIconEngine,11,70,299
+0fe8a713351ae7754cfe4704cb2ec0b8c6a00ece,Andrew den Exter,2012-02-09 12:57:12 +1000,Fix QQDeclarativeText expected failure.,1,1,2
+bbc098ab9fde2caefa8e373a0fcdadfa95edddda,Friedemann Kleint,2011-12-19 12:05:59 +0100,Windows: Remove Window from list before calling DestroyWindow.,1,2,2
+36ff2e99f7474c93b3a8f6578a2717dad81034d7,Thiago Macieira,2012-04-20 13:59:30 +0200,Use a QMap instead of a QHash for the regexp flags,2,2,2
+92464faea924b46c8ef2759b88a166dd3cf2e9d3,Olivier Goffart,2011-12-15 12:39:40 +0100,Q_STATIC_ASSERT: fix C style cast,1,1,1
+fd85b61d1716c3da5cea8c6bde054b79fd5187fc,Friedemann Kleint,2012-07-02 12:24:12 +0200,Fix internal compiler error of MSVC2012.,1,6,5
+dfdea38c843d1ee915e10ee72e6371ced7cd9bd0,Andrew den Exter,2012-03-05 18:19:20 +1000,Decouple QSGDistanceFieldGlyphNode from it's cache manager.,9,99,83
+ce81da52ea1fffa67188e19eb9dbba66501dd82f,Gatis Paeglis,2012-10-03 14:53:33 +0200,Make sure timestamp is initialized before using it for seting selection owner.,3,58,1
+739579d15a93db09c6c313e3d5eb3a7f41badae5,Jan-Arve Saether,2012-04-24 09:45:43 +0200,Add QDebug operator<< for QAccessibleEvent,2,17,0
+12491f35bbea7008b15fb0ba0ee7ea5bf6eb6b6c,Laszlo Agocs,2012-08-15 18:17:38 +0300,Fix transformation in eglfs backingstore,1,2,2
+b87c5cff24229b1bcc77ac68699f2f03acabc9e7,Rafael Roquetto,2012-06-08 15:20:35 +0200,Support other platform names on configure.exe,2,60,6
+e481ea595e97456aec35e6a62d3ada62cddd0c2b,J-P Nurmi,2012-12-10 14:09:55 +0100,QApplication docs: restore console mode -snippet,2,25,14
+1d500479de36c8d7709a5a029c9bdd57a52c1077,Thiago Macieira,2012-05-03 15:43:50 +0200,Change uses of {to,7,15,15
+ed74ec4c40f1476c545bcaacb12fe3a607172035,Bea Lam,2012-03-05 18:05:40 +1000,refilled items should be moved immediately,10,97,26
+b184dd0a01fda019d5a0960f6d074b6391dba655,Kent Hansen,2012-02-02 14:20:24 +0100,Bring qmetaobjectbuilder in sync with moc,4,360,15
+7334cae9a5f95f6b524e272ea8741c0af1b6e03a,Nico Vertriest,2012-12-10 14:36:02 +0100,Hardcoded url for Mac Os X Aqua QTBUG-28500,1,2,2
+786341fda11530128a92ac9cbe8f2c235d559210,Toby Tomkins,2012-06-22 13:16:43 +1000,tst_qgraphicsview hoverLeave regressed,1,3,0
+cf9264bb6b48d0a75932a36e7be057f42fbf84ea,Lars Knoll,2012-05-27 05:04:48 +0200,Remove QFactoryInterface from bearer plugins,8,1,52
+a23da5fd6bca918366cfe744270e590905e97412,David Faure,2012-08-01 17:28:39 +0200,Add bool QStandardPaths::isTestModeEnabled(),8,37,0
+10fba42d714ad97538bbd0be6bc0b7fcb19d4688,Oswald Buddenhagen,2012-07-16 14:04:50 +0200,unifiy initialization of QMAKE_LIBS{,4,3,9
+ed500477ba5a4c50ad39bea708a35a3f11456a2e,Iikka Eklund,2012-09-26 14:07:36 +0300,Update create_installer.py,2,202,120
+991b91ce57f7a71cc90f3ae4e159b6a23e043af2,Holger Hans Peter Freyther,2012-01-02 17:14:38 +0100,directfb: Refer to the right class in the error message,1,1,1
+79d6839306632d81b44e4ab01280f5220717b965,Oswald Buddenhagen,2012-04-23 15:07:44 +0200,introduce magicValues() function,2,9,2
+d5f157c16548770374489a3c566df0e9fc19cc75,Jason McDonald,2012-04-19 21:52:07 +1000,Fix XPASS in QGraphicsWidget test on Ubuntu 11.10.,2,2,2
+43ffdc3fc02eb058d7d458cb16a9c3cf07ea68eb,Gunnar Sletta,2012-03-05 10:11:16 +0100,Do not store an explicit QImage in the declarative pixmap cache.,4,65,73
+ace2f5b9ef85db8fb487d1fb35b28d17ade0e6de,Denis Shienkov,2012-06-05 14:04:55 +0400,The overall optimization of the SerialPort class,2,69,461
+d8fcfbc3c336b76f486ce4fc215076e96ea8090c,J-P Nurmi,2012-11-29 23:02:52 +0100,QGV: set QStyleOption::styleObject for graphics items & widgets,3,14,0
+b780196a956a8ef9835397572d62197998b3e7f6,Stephen Kelly,2012-04-19 16:52:02 +0200,Add some more output to debug a flaky test.,1,8,2
+3827fd2a37f72e2720da1cc2db5902286c234680,Thiago Macieira,2012-09-24 17:51:15 +0200,Add some tests for compatible and incompatible custom deleters,1,20,0
+ce85e1b2286b44362f6d74fac488574db74d7387,Jerome Pasion,2012-11-06 16:20:08 +0100,"Help generator: Add a global config for ""extraFiles"".",1,1,0
+1fc28ff56c93c33e4f0491c77920d8cee4e614b2,Thiago Macieira,2012-04-25 13:33:03 +0200,"Re-enable casting to and from ""ASCII"" on tst_qstring.cpp",1,13,33
+e00fe22173c6594bad9c35b16e5e552c9269e8d1,Denis Shienkov,2012-03-19 22:15:01 +0400,SerialPortInfo,2,86,53
+6fd1895b918c45d8404ff38319f508f0357cba27,Thiago Macieira,2012-08-16 16:12:07 +0200,Move QRecursiveMutexPrivate to qmutex.cpp and mark inline,2,15,14
+33730f3b28d29748efb71355e7ee67f91e7a1f5e,Casper van Donderen,2012-07-05 14:49:10 +0200,QDoc: Fix relative URL generation for cross-linking.,1,1,1
+7138c963f9d1258bc1b49cb4d63c3e2b7d0ccfda,Oswald Buddenhagen,2012-09-07 19:06:09 +0200,fix pointer abuse,1,1,1
+95f31ab94dce3ccc04b9fd505b33f0734dd9fa13,Aleksei Timofeyev,2012-08-01 13:31:43 +0600,Fix incorrect use of cfgetispeed.,1,1,1
+acc54f9c0a6367edddb1fb2bba40b3341f9b384c,Aaron Kennedy,2012-02-07 13:29:52 +0000,Reduce the memory used by QStringHash,4,533,232
+6aa09123df99f94111b60f3117bde992fbbe7dc4,Sean Harmer,2012-06-06 11:12:25 +0100,QNX: Take nativeOrientation into account for QNX device orientations,1,25,10
+5a0eb4e768435b9ce32b074e620fca33be4df2fb,Friedemann Kleint,2012-02-27 12:38:04 +0100,Fix icon loading in style sheets.,3,49,31
+3e07223c85f390cfcead087a636c25c6fc6b5720,Denis Shienkov,2012-04-12 18:53:46 +0400,Added the Terminal Example description.,3,124,4
+7edd623957b958d7d3db20772571810d7be9da85,Kent Hansen,2012-02-01 20:47:26 +0100,Fix QTextStream and QDebug operator<< for QLatin1String,5,45,1
+9be1b6ba487f6a7547901852fc439610eb3338c7,Alan Alpert,2012-11-30 15:16:27 -0800,Remove 'com.nokia' string from autotest,62,163,163
+62d427a1da7d0980d8d2992629fd3e9dd7229ab4,Morten Johan Sorvig,2012-05-07 11:11:56 +0200,Compile on Mac.,1,13,3
+f6bd02317db7beadda1237df7feddd4a780415cb,Andy Shaw,2012-09-24 12:04:21 +0200,Fix XCode generator for qmake in Qt 5 after recent changes,2,31,30
+443fd332f941f8c30074390ddd9e00ee40cd584d,Rohan McGovern,2012-03-06 09:54:55 +1000,Stabilize tst_QShortcut,1,1,3
+93ee903da7b10326b40bc43d5f5c659d527e8814,Oswald Buddenhagen,2012-02-21 12:44:27 +0100,clean up build pass project initialization,5,24,16
+903fa2e4aa0d4e0cf0e13216dd8883b5e4a7709d,Miikka Heikkinen,2012-12-10 16:11:47 +0200,Add QT_DEFAULT_QPA_PLUGIN to generated qconfig.pri,5,25,0
+3cf6c2ca625e8cf7f71e5f6805aacda411e02135,Jens Bache-Wiig,2012-11-09 13:40:00 +0100,Clean up imports and move from 0.2 to 1.0,43,88,88
+53fdcca36650970568f14b81814eb627cbabea43,Mithra Pattison,2012-07-10 13:26:48 +1000,Delete obsolete class methods and update related code,47,301,385
+feb6211dfbee0c73b0749cfe6be8b6504ea056e6,Holger Hans Peter Freyther,2012-01-01 20:56:38 +0100,blitter: Move state updates into new methods,1,86,45
+b53ea6973102e3ec2a7c84da3496b61d01070b99,Girish Ramakrishnan,2012-04-11 22:06:05 -0700,qss: fix parsing of icon style hints,1,2,3
+e32ee62c7a1938c7ba331a8838120b0ea9c9ce3c,Girish Ramakrishnan,2012-07-07 08:49:12 +0530,linuxfb: raise and lower should take QFbWindow as args,3,23,25
+f20266f9f43ab3956de271f696c769db02992e87,Joerg Bornemann,2012-10-01 12:56:28 +0200,fix QWidget::setWindowFilePath on Mac OS,5,25,3
+cb86525df6e4721cd150dea2a2f93d1bf54f478f,Adriano Rezende,2012-02-26 17:26:49 +0100,Adjust Flickable autotest to check mouse events with transformation,2,91,0
+6a6425dff5fb12bf7522dd3c0894a43336667263,Kent Hansen,2012-02-06 08:32:59 +0100,Don't hardcode the number 14 in meta-object generators,3,7,3
+9d7123e4de511797585f2b33e7bf8bf07551f4f5,Robin Burchell,2012-01-20 02:35:51 +0200,Remove unnecessary sizehint overload.,2,0,11
+266913a64996fb74045b191cbd8bf349b42147a9,Robin Burchell,2012-05-02 14:14:11 +0200,Stub out QDnsLookup on Android.,2,60,0
+0b019fcc52560d0a7016f733cb2bea3e03893ec0,Thomas Hartmann,2012-11-05 13:51:58 +0100,QQmlPropertyCache: adding setParent(),2,6,0
+1967c147373be39f3e9f38967044812ce13ad10e,Laszlo Papp,2012-04-02 22:20:17 +0300,"Use the relevant ""\since 5.0"" entry (proposed to public since 5.0)",1,1,0
+4e542d958a8fa81c91e55c1358e15c84e34d15de,Thiago Macieira,2012-08-03 11:40:35 +0200,ICU: Mark which functions are threadsafe and which ones aren't,3,20,14
+13d099a8646f01c4b4e8cb1873b99ca6d4eb0755,Martin Smith,2012-02-17 14:03:11 +0100,qdoc3: Allow \qmlproperty to override the property signature,10,435,109
+9f838153e690ba8f8a44d6a874bc90a9b7b24b6e,Adrian Carpenter,2012-06-27 13:17:31 +0100,Removed flags from SSPI calls which prevented the NTLM authentication from working,1,2,8
+0753bba721151577ed138a8fd553c267604f89fe,Thomas McGuire,2012-06-29 13:48:28 +0200,Use \sa links to link to the C++ documentation,1,111,98
+89d6599de9092ac1f5e24981e642d87d57f593b5,Martin Jones,2012-03-14 09:50:31 +1000,Reuse QQuickView in GridView table driven tests,1,88,40
+a58a4e0c7be87eb29005b84d99d85138491a7067,Sergio Ahumada,2012-10-25 18:33:58 +0200,Remove stale QT_MODULE() usage cases,10,0,20
+0de7440cc6ba0403588d1b5f8a6a557c7216334a,Friedemann Kleint,2012-10-08 16:10:14 +0200,Windows: Filter out events sent during DestroyWindow().,3,7,2
+9c75a547a0eddd8913ec5f1a49b5ba5749f50973,Thiago Macieira,2012-05-02 12:55:49 +0200,Remove references to to/fromAscii in QString and QByteArray main docs,5,125,139
+0ae8aba9d485a2e0f677e3ef3bcb4eaa5336a7a8,Denis Shienkov,2012-05-03 23:00:06 +0400,Prepared a first manual test example.,8,355,1
+96bf9b181cf06695dc439674be79a126997cb9eb,Rafael Roquetto,2012-07-18 14:01:08 +0200,Fix auto detection in configure.exe,1,9,5
+3651ffe993a9243a89fe965fedee9315f3ab68f4,Jonathan Liu,2012-12-17 23:15:57 +1100,Fix Math.pow implementation with MinGW-w64 https://bugs.webkit.org/show_bug.cgi?id=105087,2,36,0
+e8df0eaa0158fcb2c4bf3f7aba544cedf107a113,Kevin Ottens,2012-05-03 11:37:23 +0200,Add support for the pressure sensor,4,162,0
+166e66496114975b9580e489b16963191fd4f600,hjk,2012-12-04 12:34:19 +0100,Centralize and fixup qtsvg example sources install targets,266,9128,9174
+978937ab4a44179224a3021f89555bfa988fe687,Thiago Macieira,2012-04-02 20:52:28 -0300,Make the CPU detection much more efficient in user code,5,87,65
+8a68ac29335a8827908629f7f9d5804abe874004,Laszlo Papp,2012-05-27 17:09:47 +0300,Do not use a temporary variable unnecessarily while returning a retval,4,13,26
+b51296c06433d4923e4dcfd2bc104ae3ab67fb43,Bradley T. Hughes,2012-02-03 12:28:13 +0100,Add SHA-224,7,2115,3
+87fbe79af2ecde090880d145a1ea9d66418ac734,Jiang Jiang,2012-07-05 11:20:40 +0200,Do not delete m_blitProgram more than once,1,0,1
+3f68acbd36c96fbfda84b84b156c8028d376ad85,Martin Smith,2012-02-16 10:40:14 +0100,qdoc3: infinite loop caused by mysterious input sequence,1,1,1
+3ef9138efd0e74283a9092a7ecae77c61d345048,Friedemann Kleint,2012-07-17 09:54:19 +0200,QtPrintSupport: Replace remaining Q_WS_ conditionals by name checks.,3,4,16
+053676a80e6fd3d415fd1915968b22bd5fb87704,David Faure,2012-01-02 23:36:05 +0100,QStandardPaths: add GenericCacheLocation.,5,17,6
+fd7b3ffe5cbedb180f7cfb9975437f0eb285d05a,Sergio Ahumada,2012-10-29 23:21:35 +0100,test: Remove QSKIP from tst_QPainter::drawText_subPixelPositionsInRaster_qtbug5053(),1,5,3
+7e973ea4a883a3af8d9d4dab0e125e254305ff23,Damian Jansen,2012-01-13 12:08:20 +1000,Use QGuiApplication,10,92,92
+056d9b57cee7476cdb6e901334c9f8e3992f5105,Joerg Bornemann,2012-12-03 16:19:03 +0100,dumpcpp: properly clean up temporary metaobjects,2,18,6
+3c19a66a0f2d121d7d1c8fae32afa34c6282e39b,Matthew Vogt,2012-03-20 09:53:24 +1000,Remove include of QStringBuilder header,1,0,2
+884bc89e9fe765a7be245b3009339f999936a761,Matthew Vogt,2012-07-17 11:14:43 +1000,Allow QQmlPropertyMap property updates to be controlled,5,103,13
+ba43d50b31098b0e76d2c5797b997b1dcd3f3441,Lev Zelenskiy,2012-03-22 17:10:19 +1000,Fixes to qmediaplayerbackend integration test: use ogg video on Linux.,2,38,9
+772d748b95c068d93fce1d681a457ae97019ec40,Bradley T. Hughes,2012-03-28 11:36:10 +0200,QWindow: add windowModality as a Q_PROPERTY(),2,23,8
+0f60374b5510642659f9778e47cb1204b0fd6ec7,Simon Hausmann,2012-04-16 19:49:10 +0200,Fix undefined behaviour when deleting sensor filters,1,1,1
+55d7ff19c71975189632c75ecd78cc1323a3ac43,Martin Smith,2012-02-07 12:19:46 +0100,qdoc3: Added excludefiles variable to qdoc config variables,6,86,31
+80051eaddc1131503e4dc40300d79e68fefb69e5,Lorn Potter,2012-06-22 14:47:25 +1000,enable the dtap sensor tests,1,2,3
+053cf8ccb7de0c72b9aea47937876a03c99fa938,Friedemann Kleint,2012-06-25 12:58:01 +0200,Clucene: Fixed MSVC2011 build.,3,10,12
+4dd2de9c7676220d2ac47f679ae05719078da0d0,Weng Xuetian,2012-06-24 19:16:21 +0800,Move QPlatformInputContextPlugin/Factory to QtGui,13,332,335
+8e960d68a98a3e77108984c73c749e0c2e435d73,Jeremy Katz,2012-07-26 17:09:08 +0200,Fix QUrlQuery qdoc errors,1,28,5
+314e590d67db08690b31930e53ca61cedfc4d1e2,Peter Hartmann,2012-04-22 21:20:27 +0200,QHttpMultiPart: supply new line at the end of the body,1,2,2
+98437f0e2edde7f5e49e1a6bea27ef130b58bee4,Thiago Macieira,2012-08-17 18:11:52 +0200,Add a way for QtDBus to force a call to dbus_shutdown,2,17,3
+65755f9a68947e774c640ce92c022d677acdcc4a,Eskil Abrahamsen Blomfeldt,2012-11-06 12:22:39 +0100,Fix native RGB text on OpenGL ES 2 without BGRA extension,2,19,3
+94a519372021708febd890d0cfe5c4be70948970,Andrew den Exter,2012-07-03 14:00:25 +1000,Use unique port numbers for http servers in auto tests.,8,30,25
+e8664368c608913cb36d0a80980f8d7fce5e2eb6,Glenn Watson,2012-01-12 10:19:32 +1000,Fix crash when using namespaces for JS module APIs.,1,1,1
+a6277bb84d208279abb600f9eae801b3aacecc4c,Stephen Kelly,2012-08-28 13:12:32 +0200,Test metatype registration errors with non-metatypes.,3,22,12
+a52c11229a0c55071a43c9352b6c2e9e8ae481fa,Michael Brasser,2012-01-25 10:32:43 +1000,Add additional animation autotests.,4,279,1
+2d07d3b4e3036179667a822aa40285d071b76b9e,Friedemann Kleint,2012-11-07 16:23:32 +0100,Add a QEnterEvent containing the mouse position.,18,138,57
+abc1cca4c150bf5aa49712aa2cc072dd80d0f383,Casper van Donderen,2012-03-05 15:46:03 +0100,Use some of the renamed qtdeclarative classes.,2,6,6
+058c029b1e035bc00447e846e888a7935c8f1902,Giuseppe D'Angelo,2012-12-16 21:19:24 +0100,Remove useless QVERIFY(true),1,0,2
+ac16d722140661cd21949ca321b659ba2c359388,Girish Ramakrishnan,2012-05-21 14:59:00 -0700,eglfs/pi: update handles are 'local' variables,1,3,2
+a5e3e9eaf16e4b146659f4f5b9227fb2435ee8f2,Gatis Paeglis,2012-08-06 15:31:11 +0200,Don't let mimeData return 0.,1,25,12
+f930e088fca4150ed61b1bfca0ec2ad139743a67,Venugopal Shivashankar,2012-07-19 15:44:36 +0200,Moved doc under src to fall in-line with the new modular structure,163,4565,8383
+c671cf25b2a0a52eeeb4ade7ff0d5d81a5d61a94,Maurice Kalinowski,2012-11-20 13:10:46 +0100,simplified example,2,0,10
+5b76b0de4848912cb9901524ff07d03bc9b71a5f,Gunnar Sletta,2012-02-08 10:19:39 +0100,Make use of the new maybeAdvance animation logic inside the animation system,1,1,1
+8bd497a614be0c469d9729861b4815aeb83d2597,Andrew den Exter,2011-12-23 16:04:44 +1000,Fix crash in TextInput.,3,43,7
+e1189131ddea3792bc2ff5e6e4c734c8370f8f9a,Girish Ramakrishnan,2012-04-16 18:04:52 -0700,include QWindowSystemInterface explicity when needed,3,3,0
+75c649276a9bbcb2e593d6c6f78d77417dd05891,Stephen Kelly,2012-08-08 10:23:04 +0200,Remove the use of the QWidgetStar metatypeid.,6,165,14
+a4573dd927991937751f1e56cc02f7946f4f182b,Thomas McGuire,2012-08-14 14:17:10 +0200,Immediatley delete QV8QObjectResource objects to reduce memory leaks,1,6,2
+dd904c3c48c9c153a7904b0ee4da0251dd3cb9b4,Oliver Wolff,2012-10-29 14:32:23 +0100,move QSharedMemory autotest from qtscript to qtbase,6,1058,1
+276079b9843ca5f2f894c1b65fc337b40a7b2a5c,Laszlo Papp,2012-05-22 21:58:55 +0300,Fix the broken tests with Qt4 due to the QSKIP API change,1,13,32
+031389e62eef062d0bc93539d9144265996fa86f,Martin Petersson,2012-02-23 13:18:47 +0100,QWindowsPipeWriter could terminate the process to early,1,1,1
+bfabd0de511336abf50594b5e98f94d3eb36cb73,Marc Mutz,2012-08-04 08:16:47 +0200,QUrl::idnWhiteList(): add QList::reserve() call,1,4,2
+7ac1b21d058d48161c0b836b57c8410d28c63c4d,Kim Motoyoshi Kalland,2012-08-30 13:04:25 +0200,Doc: Remove documentation for removed function.,1,0,8
+c7ea35f8ca25da17c78174b4e98f3c613f742cb2,Lorn Potter,2012-10-27 13:53:20 +1000,Add freefall sensorgesture.,3,209,0
+21e228afa711ea040170445c649f725bedc394fe,Miikka Heikkinen,2012-03-14 16:42:58 +0200,Windows: Fix file URL issues in declarative autotests,9,39,35
+de5d919830c0dc8a7b9990ee8939302acb1a13ef,Allan Sandfeld Jensen,2012-12-10 16:02:47 +0100,[Qt] Don't rely on QMimeDatabase for essential MIME types,2,47,18
+7389c096379d63d956a023835646af1179ac6ea4,Mark Brand,2012-09-17 14:22:29 +0200,QSqlTableModel::selectRow(): fix failure on uncached rows,3,66,7
+9f18ef6613e6babd64183601e75424aeb27e3560,Miikka Heikkinen,2012-02-22 15:31:27 +0200,Windows: Fix local file URLs in two autotests,2,10,2
+c16455dbcf7aae140524b391c99b97a7b10b41dc,Konstantin Ritt,2012-05-23 19:02:28 +0300,Re-generate the Arabic joining tables from UCD 6.1.0,1,36,33
+806dda08d685bc5f9ed71dfe8b61f21848d48066,Gabriel de Dietrich,2012-08-17 13:23:19 +0200,Moving .qdoc files under examples/widgets/doc,2599,100554,100708
+1760d541f35c851b6c08bc617a89cb16a1d8f975,Thomas McGuire,2012-07-19 15:46:09 +0200,Blackberry: Remove QtGui dependency,9,239,62
+7911627f718d0e4876c42adbb5f3e02cf3c9f4eb,Kai Koehne,2012-01-16 13:44:34 +0100,Console API: Add console.info,5,8,3
+0a6dc44f248c05bf179069e8cb3c2aebbeee7ac6,Tarja Sundqvist,2012-06-08 11:33:41 +0300,QTBUG-26035: Remove positive sign from start of string,2,19,1
+f503e906d6849fc7a2fef57a52b44194030bc5ed,Shane Kearns,2012-04-20 18:25:31 +0100,Move QSocketNotifier data members to a private class,2,43,29
+e4a6f44ce1a35986c445c40ff2793456782f58fa,Andrey Leonov,2012-10-04 19:37:00 -0400,Implementation of the BlackBerry Qt Proxy support.,3,140,0
+8b6338be4a41b70f2fc3a18ca07592ca7eb01432,Giuseppe D'Angelo,2012-03-12 18:41:34 +0000,QRegExp: remove docs about RegExp2 being default in Qt5,1,2,2
+e9df01d3db83ec4ba64c99c92495e6dd0e201420,Girish Ramakrishnan,2012-06-06 13:57:09 -0700,eglfs refactor: move window creation into qeglfswindow,9,212,106
+82f9ad6295fb35e138841810a05075214a2f2690,Richard Moore,2011-12-27 16:09:59 +0000,Always load the openssl configuration.,2,3,4
+65a264c4a16fc995ec2b495dd8839d9965ceb605,Friedemann Kleint,2012-05-25 14:55:44 +0200,QWidget::grab(): Do not call adjustSize() unconditionally.,1,5,8
+194b62fb38a9cad1fcb9bc18389707315e0215be,Martin Smith,2012-08-17 11:31:23 +0200,doc: Added \relates command to some function qdoc comments,4,13,1
+959fd59bd5bb72dde5db4975443c69045ea2fe53,Matthew Vogt,2012-05-23 15:52:31 +1000,Ensure that main thread processes worker data events,1,7,2
+58ab483cdb685ee71daf4e68907a97481a411628,Friedemann Kleint,2012-07-31 09:06:50 +0200,Stabilize the QHeaderView test.,1,9,1
+5704cbc462ad0b316a6b55a0f1dadc3c50762ef7,Caroline Chao,2012-09-07 14:59:15 +0200,Test: remove QSKIP from printsupport tests,3,18,46
